@@ -8,3 +8,4 @@ mongoose.connection.on('connected', () => {
 mongoose.connection.on('error', (err) => {
   console.log('Failed to connect to MongoDB', err);
 });
+module.exports = mongoose;

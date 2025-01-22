@@ -9,8 +9,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "express": "^4.21.2",
     "mongoose": "^8.9.5",
-    "mongose": "^0.0.2-security"
+    "mongose": "^0.0.2-security",
+    "react-bootstrap": "^2.10.8"
   }
 }
