@@ -1,9 +1,21 @@
+import { Route, Routes } from "react-router-dom";
+import Header from "./pages/header/header";
+// import dashboard from "./pages/auth/login/dashboard/dashboard";
+import Dashboard from "./pages/dashboard/dashboard";
+import Login from "./pages/auth/login/login";
+import Signup from "./pages/auth/signup/signup";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-center">React App</h1>
-      </div>
+    <>
+      <Header />
+      <Routes>
+        {/* Wrap Dashboard in JSX syntax */}
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/signup" element={<Signup/>} />
+      </Routes>
+    </>
   );
 }
 
