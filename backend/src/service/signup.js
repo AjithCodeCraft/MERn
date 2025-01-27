@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const User = require('../models/user');
 const bcrypt = require('bcrypt');
 
@@ -34,3 +35,5 @@ async function createUser(userData) {
 }
 
 module.exports = { createUser };
+=======
+>>>>>>> 6b664422a786ef989c18f41fe8b5145e9d0205ef
